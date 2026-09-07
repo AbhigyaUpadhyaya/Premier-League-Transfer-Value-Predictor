@@ -1,0 +1,88 @@
+# ==============================================================================
+# Git Ignore Configuration - Premier League Transfer Market Value Predictor
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Embedded Databases & Large Binary Data Stores
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+*.db
+
+# Data Storage Directories (Keep directories via .gitkeep, ignore data artifacts)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Machine Learning Models & Training Artifacts
+models/*.pkl
+models/*.joblib
+models/*.csv
+!models/.gitkeep
+# Keep model metadata for performance tracking in version control
+!models/model_metadata.json
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# IDEs, Editors & Operating System Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# AI Assistant Instructions & Local Prompts
+AGENTS.md
+CLAUDE.md
+GEMINI.md

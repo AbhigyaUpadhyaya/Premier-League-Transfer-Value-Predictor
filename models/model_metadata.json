@@ -1,0 +1,18 @@
+{
+    "model_type": "LinearRegression (log1p target transform)",
+    "target": "market_value_gbp",
+    "numeric_features": [
+        "total_minutes",
+        "total_appearances",
+        "total_goals",
+        "total_assists"
+    ],
+    "categorical_features": [
+        "position",
+        "team"
+    ],
+    "total_training_rows": 1788,
+    "mae_gbp": 8748025.071955789,
+    "rmse_gbp": 13742633.446583804,
+    "r2": 0.4378367103230085
+}

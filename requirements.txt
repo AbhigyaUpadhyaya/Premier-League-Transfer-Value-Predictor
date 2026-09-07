@@ -1,0 +1,8 @@
+requests
+pandas
+scikit-learn
+matplotlib
+numpy
+duckdb
+joblib
+pytest
